@@ -1,0 +1,15 @@
+{
+	"name": "@beak-app/mails",
+	"description": "Transactional email templates for Beak",
+	"authors": "Alexander Forbes-Reed <git@alex.forbes.red>",
+	"version": "1.0.0",
+	"scripts": {
+		"watch": "concurrently --kill-others \"mjml -w ./src/templates/*.mjml -o ./dist/\" \"serve ./dist/\"",
+		"build": "mjml ./src/templates/*.mjml -o ./dist/"
+	},
+	"devDependencies": {
+		"concurrently": "^6.2.0",
+		"mjml": "^4.10.1",
+		"serve": "12.0.0"
+	}
+}
