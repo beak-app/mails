@@ -65,7 +65,7 @@
 					</mj-text>
 
 					<mj-text mj-class="body paragraph">
-						~ The Beak Team 🐦
+						<i>~ The Beak flock 🐦</i>
 					</mj-text>
 			</mj-section>
 		</mj-wrapper>
