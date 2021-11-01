@@ -8,8 +8,8 @@
 		"build": "mjml ./src/templates/*.mjml -o ./dist/"
 	},
 	"devDependencies": {
-		"concurrently": "^6.2.0",
-		"mjml": "^4.10.1",
-		"serve": "12.0.0"
+		"concurrently": "^6.3.0",
+		"mjml": "^4.10.4",
+		"serve": "12.0.1"
 	}
 }
