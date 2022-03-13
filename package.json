@@ -9,7 +9,7 @@
 	},
 	"devDependencies": {
 		"concurrently": "^6.3.0",
-		"mjml": "^4.10.4",
-		"serve": "12.0.1"
+		"mjml": "^4.12.0",
+		"serve": "13.0.2"
 	}
 }
