@@ -1,0 +1,115 @@
+<mjml>
+	<mj-head>
+		<mj-style inline="inline">
+			.link { color: #ffa500; }
+		</mj-style>
+
+		<mj-attributes>
+			<mj-all
+				font-family="-apple-system,BlinkMacSystemFont,Segoe WPC,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+				color="#a6accd"
+			/>
+			<mj-text padding="0" />
+
+			<!-- Utils -->
+			<mj-class name="center" align="center" />
+			<mj-class name="paragraph" padding="5px 0 5px 0" />
+
+			<!-- Typography -->
+			<mj-class name="title" font-size="31px" font-weight="700" color="white" />
+			<mj-class name="body" font-size="16px" line-height="20px" />
+			<mj-class name="bold" font-weight="600" />
+			<mj-class name="surface" background-color="#282D40" border-radius="12px" padding="20px" />
+			<mj-class name="surface-title" font-size="22px" font-weight="600" color="white" padding="0 0 5px 0" />
+
+			<!-- Buttons -->
+			<mj-class
+				name="btn-primary"
+				font-size="16px"
+				color="white"
+				background-color="#d45d80"
+				border-radius="8px"
+				padding="10px 0 0 0"
+			/>
+		</mj-attributes>
+
+		<mj-title>
+			Welcome to your Beak trial!
+		</mj-title>
+	</mj-head>
+
+	<mj-body background-color="#161824">
+		<mj-section css-class="email-wrapper-top">
+			<mj-column>
+				 <mj-image src="https://content.getbeak.app/logo.png" width="120px" />
+			</mj-column>
+		</mj-section>
+
+		<mj-wrapper>
+			<mj-section>
+				<mj-column>
+					<mj-text mj-class="title center">
+						Welcome to your Beak trial!
+					</mj-text>
+				</mj-column>
+			</mj-section>
+			<mj-section>
+				<mj-column>
+					<mj-text mj-class="body center paragraph">
+						Thank you for trying out Beak! Your account is now activated so
+						you can now either download or sign into Beak with your email
+						address. Your trial will expire in 14 days.
+					</mj-text>
+
+					<mj-text mj-class="body center paragraph bold">
+						Beak uses Magic Links, so you won't need to create a password!
+					</mj-text>
+				</mj-column>
+			</mj-section>
+
+			<mj-section mj-class="surface">
+				<mj-column>
+					<mj-text mj-class="surface-title">
+						Get Beak
+					</mj-text>
+					
+					<mj-image src="https://content.getbeak.app/Project+editor+overview+-+no+stickers.png" />
+
+					<mj-button mj-class="btn-primary" href="https://getbeak.app#downloads">
+						Download!
+					</mj-button>
+				</mj-column>
+			</mj-section>
+
+			<mj-section />
+
+			<mj-section mj-class="surface">
+				<mj-column>
+					<mj-text mj-class="surface-title">
+						Getting started
+					</mj-text>
+					<mj-text mj-class="body paragraph">
+						If you need a hand getting started, you can visit the 
+						<a class="link" href="https://docs.getbeak.app">docs section</a>,
+						or the
+						<a class="link" href="https://beakapp.notion.site/Start-here-560b672b01f543e588b6346216b3e80a">getting started</a>
+						guide.
+					</mj-text>
+
+					<mj-text mj-class="body paragraph">
+						We really appreciate your feedback and support, so don't hesitate
+						to reach out by
+						<a class="link" href="mailto:info@getbeak.app">email</a>, or
+						<a class="link" href="https://twitter.com/beakapp">Twitter</a>!
+					</mj-text>
+
+					<mj-text mj-class="body paragraph">
+						That's enough from us for now. We hope you really enjoy Beak!
+						<br />
+						<i>~ The Beak flock 🐦</i>
+					</mj-text>
+				</mj-column>
+			</mj-section>
+		</mj-wrapper>
+	</mj-body>
+</mjml>
